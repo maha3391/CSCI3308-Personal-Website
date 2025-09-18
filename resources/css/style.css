@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content {
+    flex: 1 0 auto;
+    padding: 40px 0;
+}
+.profile-img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.description {
+    max-width: 500px;
+}
+.resume-link {
+    margin-top: 20px;
+}
+footer {
+    flex-shrink: 0;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+.resume-img {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #000;
+    border-radius: 8px;
+    background: #fff;
+}

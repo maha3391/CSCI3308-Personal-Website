@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Malia's Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="resources/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navigation Bar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                </ul>
+                <span class="ms-3">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content container my-5">
+        <h2 class="text-center mb-4">My Projects</h2>
+        <div class="accordion" id="projectsAccordion">
+            <!-- Project 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Website redesign for Birthline of Loveland
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="resources/img/BirthlineOfLoveland.png" alt="Birline of Loveland" class="img-fluid rounded" style="max-height:180px;object-fit:cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                    A website redesign project for Birthline of Loveland, a non-profit organization. The redesign focused on improving user experience, accessibility, and modernizing the visual design using HTM and CSS. Visit the project <a href="https://maha3391.github.io/ATLS-3150/finalproject/birthlinehomepage.html" target="_blank" rel="noopener">here</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Personal Portfolio Website
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="resources/img/website.png" alt="Portfolio Website" class="img-fluid rounded" style="max-height:180px;object-fit:cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                    My personal website showcasing my journey, hobbies, and projects. Built with HTML, Bootstrap, and CSS. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Basic HTML Webpage
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="resources/img/basicHTML.png" alt="HTML Webpage" class="img-fluid rounded" style="max-height:180px;object-fit:cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                    A simple HTML webpage created as part of a course project. It demonstrates basic HTML structure and styling. Visit the project <a href="https://maha3391.github.io/ATLS-3150/assignment10/assignment10.html" target="_blank" rel="noopener">here</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="social-icons">
+            <a href="https://github.com/maha3391" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="www.linkedin.com/in/maliahayes" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
